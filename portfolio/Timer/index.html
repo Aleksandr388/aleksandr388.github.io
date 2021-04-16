@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pump</title>
+    <link rel="stylesheet" href="build/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1 class="title-timer">Таймер</h1>
+
+<div class="timer">
+
+    <div class="timer-value">
+        <div class="hours">
+            <input type="text" value="00">
+            <p>Hours</p>
+        </div>
+        <span class="double-dots">:</span>
+        <div class="minuts">
+            <input type="text" value="00">
+            <p>Minuts</p>
+        </div>
+        <span class="double-dots">:</span>
+        <div class="seconds">
+            <input type="text" value="00">
+            <p>Seconds</p>
+        </div>
+    </div>
+
+    <div class="timer-buttons">
+            <button type="button" class="btn green-btn">Start</button>
+            <button type="button" class="btn yellow-btn">Pause</button>
+            <button type="button" class="btn red-btn">Stop</button>
+    </div>
+
+</div>
+
+<audio src="build/sound/htc_basic.mp3" id='audiofile'></audio>
+
+
+<script src="build/js/all.js"></script>
+</body>
+</html>

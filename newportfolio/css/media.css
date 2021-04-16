@@ -1,0 +1,161 @@
+@media screen and (max-width: 1200px) {
+
+    .nav__item {
+        padding: 0 8px 0 8px;
+    }
+
+
+    .img-before::before {
+        width: 90.5%;
+    }
+
+    .img-before a {
+        top: 44%;
+        left: 33%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .menu-btn {
+        display: block;
+    }
+
+    .portfolio__title {
+        font-size: 35px;
+    }
+
+    nav .brand-logo {
+        left: 9%;
+    }
+
+    /* Стили которые отноятся к мобильному меню */
+    .menu-button {
+        display: block;
+    }
+
+    .overlay {
+        display: block;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+    /* Конец стилей которые отноятся к мобильному меню*/
+
+    .img-before::before {
+        width: 87.5%;
+    }
+
+    .img-before a {
+        top: 44%;
+        left: 32%;
+        font-size: 12px;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .hello__title {
+        font-size: 50px;
+    }
+
+    .hello__brackets {
+         font-size: 60px;
+    }
+
+    .img-before::before {
+        width: 94.5%;
+    } 
+    
+    .img-before a {
+        top: 48%;
+        left: 39%;
+        font-size: 14px;
+    }
+
+    .img-before {
+        margin-bottom: 20px;
+    }
+
+    .img-before::before {
+        height: 93%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu-btn {
+        top: 6px;
+    }
+
+    .hello__title {
+        font-size: 40px;
+    }
+
+    .hello__brackets {
+         font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hello__title {
+        font-size: 12vw;
+    }
+    .hello__paragraph {
+        font-size: 5vw;
+    }
+
+    .hello__fadown {
+        font-size: 45px;
+    }
+
+    .about__title {
+        font-size: 35px;
+    }
+
+    .hello__title {
+        font-size: 40px;
+    }
+
+    .hello__brackets {
+         font-size: 50px;
+    }
+
+    /* .input-field {
+        margin: 1rem 1rem;
+    } */
+
+}
+
+@media only screen and (max-width : 480px) { 
+    .hello__title {
+        text-align: center;
+    }
+
+    .hello__brackets {
+        display: none;
+    }
+
+    /* .input-field {
+        margin: 1rem 0.3rem;
+    } */
+
+    .img-before::before {
+        display: none;
+    }
+
+
+    .img-before a {
+        top: 43%;
+        left: 35%;
+        font-size: 13px; 
+    }
+}
+
+

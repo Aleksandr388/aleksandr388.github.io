@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="build/css/all.css">
+</head>
+<body>
+<div class="overlay">
+</div>
+    <header>
+        <div class="top-bar">
+            <div class="container">
+               <div class="top-bar-items">
+                     <div class="row justify-content-sm-between">
+                        <div class="currency">
+                            <button type="button" class="currency-btn">Currency : GBP <i class="fas fa-chevron-down"></i></button>
+                            <ul class="currency-menu box__dropdown">
+                                <li><button type="button" class="usd">USD</button></li>
+                                <li><button type="button" class="eur">EUR</button></li>
+                                <li><button type="button" class="pln">PLN</button></li>
+                                <li><button type="button" class="gbr">GBR</button></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-sm-8 col-lg-5 col">
+                            <div class="bascket">
+                                <a href="#">Register</a>
+                                <a href="#">Sign in</a>
+                                <a href="#" class="cart">
+                                    <i class="fas fa-shopping-cart"></i> empty <i class="fas fa-chevron-down"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wraper">
+        <div class="wraper-bg">
+            <div class="menu">
+                <div class="logo"><p><b>avenue</b> fashion</p></div>
+                <nav class="menu-items">
+                    <ul>
+                        <li>
+                            <a href="#" class="header-link">
+                                mens
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+
+                            <div class="menu-list hidden-menu">
+                                    <div class="menu-list-wrapper">
+                                        <nav class="casuals">
+                                            <h6>casuals</h6>
+                                            <ul>
+                                                <li><a href="#">Jackets</a></li>
+                                                <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                                <li><a href="#">Polo Shirts</a></li>
+                                                <li><a href="#">Sportswear</a></li>
+                                                <li><a href="#">Trousers & Chinos</a></li>
+                                                <li><a href="#">T-Shirts</a></li>
+                                            </ul>
+                                        </nav>
+                
+                                        <nav class="formal">
+                                                <h6>formal</h6>
+                                                <ul>
+                                                    <li><a href="#">Jackets</a></li>
+                                                    <li><a href="#">Shirts</a></li>
+                                                    <li><a href="#">Suits</a></li>
+                                                    <li><a href="#">Trousers</a></li>
+                                                </ul>
+                                        </nav>
+                                    </div>
+
+                                    <div class="sale">
+                                        <h3>autumn sale!</h3>
+                                        <p>up to 50% off</p>
+                                    </div>
+                                </div>
+                        </li>
+                        <li>
+                            <a href="#" class="header-link">
+                                womens
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+                            
+                            <div class="menu-list hidden-menu">
+                                <div class="menu-list-wrapper">
+                                    <nav class="casuals">
+                                        <h6>casuals</h6>
+                                        <ul>
+                                            <li><a href="#">Jackets</a></li>
+                                            <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                            <li><a href="#">Polo Shirts</a></li>
+                                            <li><a href="#">Sportswear</a></li>
+                                            <li><a href="#">Trousers & Chinos</a></li>
+                                            <li><a href="#">T-Shirts</a></li>
+                                        </ul>
+                                    </nav>
+            
+                                    <nav class="formal">
+                                            <h6>formal</h6>
+                                            <ul>
+                                                <li><a href="#">Jackets</a></li>
+                                                <li><a href="#">Shirts</a></li>
+                                                <li><a href="#">Suits</a></li>
+                                                <li><a href="#">Trousers</a></li>
+                                            </ul>
+                                    </nav>
+                                </div>
+
+                                <div class="sale">
+                                    <h3>autumn sale!</h3>
+                                    <p>up to 50% off</p>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li><a href="#" class="header-link">the brand</a></li>
+                        <li>
+                            <a href="#" class="header-link">
+                                local stores
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="header-link">
+                                look book
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <a class="menu-btn switch-menu-btn">
+                    <span></span>
+                </a>
+
+                <form action="#" class="search-form">
+                        <input type="search" class="search-form-input" placeholder="Search..." />
+                        <button type="submit" class="search-form-btn">
+                                <i class="fas fa-search"></i>
+                </button>
+            </form>
+            </div>
+
+            <div class="ave">
+                <p>a</p>
+                <p>v</p>
+                <p>e</p>
+            </div>
+
+            <a class="semi-transparent-button" href="#">shop men's collection</a>
+
+            </div>
+        </div>
+
+
+
+
+    </header>
+
+    <section class="shop">
+        <div class="shop-wraper">
+            <nav class="shop-menu">
+                <ul>
+                    <li><a href="#">popular</a></li>
+                    <li><a href="#">new arrivals</a></li>
+                    <li><a href="#">best sellers</a></li>
+                    <li><a href="#">special offers</a></li>
+                    <li><a href="#">coming soon</a></li>
+                </ul>
+            </nav>
+
+        <div class="shop-items">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="shop-hover">
+                        <div class="shop-item_small price-box">
+                            <span class="cost"><sup>£</sup>89.99</span>
+                            <img src="build/img/shopitemS.jpg" alt="">
+                                <div class="shop-nav">
+                                    <a href="#" class="shop-btn">Learn more</a>
+                                    <button type="button" class="buy shop-btn"><i class="fas fa-shopping-cart"></i> Add to card</button>
+                                </div>   
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="shop-hover">
+                        <div class="shop-item_small price-box">
+                                <span class="cost"><sup>£</sup>47.50</span>
+                                <img src="build/img/shopitemS2.jpg" alt="">
+                                <div class="shop-nav">
+                                    <a href="#" class="shop-btn">Learn more</a> 
+                                    <button class="buy shop-btn"><i class="fas fa-shopping-cart"></i> Add to card</button>   
+                                </div> 
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="shop-hover">
+                        <div class="shop-item_big price-box">
+                            <span class="cost"> <s class="discount"><sup>£</sup>107</s><sup>£</sup>89.99</span>
+                            <img src="build/img/shopitemB.jpg" alt="" class="">
+                            <div class="shop-nav shop-nav-b">
+                                    <a href="#" class="shop-btn">Learn more</a> 
+                                    <button class="buy shop-btn"><i class="fas fa-shopping-cart"></i> Add to card</button>   
+                            </div>
+                        </div>
+                    </div> 
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="shop-hover position_b">
+                            <div class="shop-item_big  price-box">
+                                <span class="cost"><sup>£</sup>69.95</span>
+                                <img src="build/img/shopitemB2.jpg" alt="">
+                                <div class="shop-nav shop-nav-b">
+                                        <a href="#" class="shop-btn">Learn more</a> 
+                                        <button class="buy shop-btn"><i class="fas fa-shopping-cart"></i> Add to card</button>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="shop-hover">
+                        <div class="shop-item_small price-box">
+                            <span class="cost"><sup>£</sup>29.95</span>
+                            <img src="build/img/shopitenS3.jpg" alt="">
+                            <div class="shop-nav">
+                                <a href="#" class="shop-btn">Learn more</a> 
+                                <button class="buy shop-btn"><i class="fas fa-shopping-cart"></i> Add to card</button>   
+                            </div> 
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="shop-hover">
+                        <div class="shop-item_small price-box">
+                                <span class="cost"><sup>£</sup>89.99</span>
+                                <img src="build/img/shopitemS4.jpg" alt="">
+                                <div class="shop-nav">
+                                    <a href="#" class="shop-btn">Learn more</a> 
+                                    <button class="buy shop-btn"><i class="fas fa-shopping-cart"></i> Add to card</button>   
+                                </div>        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+                <div class="border-bottom"></div>
+        </div>
+
+    </section>
+
+    <section class="look-book">
+
+            <div class="look-book-box">
+
+                    <div class="row">
+                        <div class="col-sm-5">
+                                
+                                <img src="build/img/REPLACE.png" alt="" class="lookbook-img">
+
+
+                        </div>
+                        <div class="col-sm-7">            
+                            <div class="lookbook-txt">    
+
+                                <h2><b>Men’s</b></h2>
+                                <h2>Lookbook</h2>
+
+                                <p>
+                                Lorem ipsum dolor sit amet eras facilisis
+                                consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.
+                                Elementum metus facilisis ut phasellu.
+                            </p>
+
+                            <a href="" class="lookbook-btn">view now</a>
+                        </div>
+                    </div>
+                    </div>
+
+            </div>
+
+            <div class="look-book-box">
+
+                    <div class="row">
+                        <div class="col-sm-5">
+                                
+                                <img src="build/img/REPLACE-w.png" alt="" class="lookbook-img">
+
+
+                        </div>
+                        <div class="col-sm-7">            
+                            <div class="lookbook-txt">    
+
+                                <h2><b>women’s</b></h2>
+                                <h2>Lookbook</h2>
+
+                                <p>
+                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames .
+                                    Pellentesque laoreet quis enim et mattis. Quisque interdum felis tellus
+                            </p>
+
+                            <a href="" class="lookbook-btn">view now</a>
+                        </div></div>
+                    </div>
+
+            </div>
+
+            <div class="look-book-box look-book-dn">
+
+                    <div class="row">
+                        <div class="col-sm-5">
+                                
+                                <img src="build/img/Myself.png" alt="" class="lookbook-img">
+
+
+                        </div>
+                        <div class="col-sm-7">            
+                            <div class="lookbook-txt">    
+
+                                <h2><b>your</b></h2>
+                                <h2>Lookbook</h2>
+
+                                <p>
+                                    See an item you like and click the button to add it to your lookbook where you can create your own perfect look.
+                                    It’s like your own boutique!
+                            </p>
+
+                            <a href="" class="lookbook-btn">view now</a>
+                        </div></div>
+                    </div>
+
+            </div>
+
+    </section>
+
+    <section class="pre-footer">
+
+        <div class="container">
+                <div class="pre-f-n">
+            <div class="row justify-content-md-center">
+                <div class="col-md-2 d-xl-block d-sm-none">
+                    <h6>informayion</h6>
+                    <ul>
+                        <li><a href="#">The brand</a></li>
+                        <li><a href="#">Local stores</a></li>
+                        <li><a href="#">Customer service</a></li>
+                        <li><a href="#">Privacy & cookies</a></li>
+                        <li><a href="#">Site map</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 d-lg-block d-sm-none">
+                    <h6>why buy from us</h6>
+                    <ul>
+                        <li> <a href="#">Shipping & returns</a></li>
+                        <li> <a href="#">Secure shopping</a></li>
+                        <li> <a href="#">Testimonials</a></li>
+                        <li> <a href="#">Award winning</a></li>
+                        <li> <a href="#">Ethical trading</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-lg-2">
+                    <h6>your account</h6>
+                    <ul>
+                        <li> <a href="#">Sign in</a></li>
+                        <li> <a href="#">Register</a></li>
+                        <li> <a href="#">View cart</a></li>
+                        <li> <a href="#">View your lookbook</a></li>
+                        <li> <a href="#">Track an order</a></li>
+                        <li> <a href="#">Update information</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-lg-2">
+                    <h6>lookbook</h6>
+                    <ul>
+                        <li> <a href="#">Latest posts</a></li>
+                        <li> <a href="#">Men's lookbook</a></li>
+                        <li> <a href="#">Women`s lookbook</a></li>
+                        <li> <a href="#">Lookbook RSS feed</a></li>
+                        <li> <a href="#">View your lookbook</a></li>
+                        <li> <a href="#">Delete your lookbook</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-lg-2">
+                    <h6>contact details</h6>
+                    <ul>
+                        <li>Head Office: Avenue fashion
+                            180-182 Regent Street London
+                        </li>
+                        <li>Telephone: 0123-45-789</li>
+                        <li>Email:support@yourwebsite.com</li>
+                    </ul>                   
+             </div>
+          </div>
+        </div>
+
+            <div class="row justify-content-md-center">
+                <div class="col-lg-5">
+                    <div class="award">
+                        <h3>award winner</h3>
+                        <p>fashion awards 2016</p>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="links">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    </section>
+
+    <footer class="footer">
+        <div class="year">
+            <p>© 2016 Avenue Fashion™</p>
+        </div>
+        <div class="made-by">
+            <a href="#">Design by RobbyDesigns.com</a>
+            <a href="#">Dev by Loremipsum.com</a>
+        </div>
+    </footer>
+
+    <div class="mobile-menu hidden">
+        <button type="button" class="switch-menu-btn menu-close-btn">
+            <span class="sandwich-btn"></span>
+        </button>
+        <nav class="mobile-navigation">
+            <ul class="mobile-items">
+                    <li>
+                        <a href="#">mens</a>
+                    </li>
+                    <li>
+                        <a href="#">womens</a>
+                    </li>
+                    <li><a href="#">the brand</a></li>
+                    <li>
+                        <a href="#">local stores</a>
+                    </li>
+                    <li>
+                        <a href="#">look book</a>
+                    </li>
+            </ul>
+        </nav>
+
+    </div>
+
+<script src="build/js/all.js"></script>
+</body>
+</html>

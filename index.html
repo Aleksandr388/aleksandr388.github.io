@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Нещеретный</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-2">
+                    <a href="#" class="header__link">
+                        <h1 class="header__logo">Нещеретный</h1>
+                    </a>
+                </div>
+                <div class="col-lg-6 offset-4">
+                    <nav class="nav header__nav">
+
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#home" class="nav__item-link">Главная</a></li>
+                            <li class="nav__item"><a href="#service" class="nav__item-link">Услуги</a></li>
+                            <li class="nav__item"><a href="#portfolio" class="nav__item-link">Портфолио</a></li>
+                            <li class="nav__item"><a href="#about" class="nav__item-link">Обо мне</a></li>
+                            <li class="nav__item"><a href="#contacts" class="nav__item-link">Контакты</a></li>
+                        </ul>
+
+                    </nav>
+
+                    <div class="button_container" id="toggle">
+                        <span class="top"></span>
+                        <span class="middle"></span>
+                        <span class="bottom"></span>
+                    </div>
+
+                    <div class="overlay" id="overlay">
+                        <nav class="overlay-menu">
+                            <ul>
+                                <li><a href="#home">Главная</a></li>
+                                <li><a href="#service">Услуги</a></li>
+                                <li><a href="#portfolio">Портфолио</a></li>
+                                <li><a href="#about">Обо мне</a></li>
+                                <li><a href="#contacts">Контакты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <section class="hello-section" style="background-image: url(img/reawer.jpg)" id="home">
+
+        <div class="hello__content">
+
+            <h1 class="hello__title">добро пожаловать!</h1>
+            <p class="hello__paragraph">Рад видеть вас у себя на сайте.</p>
+            <i class="fas fa-chevron-down hello__fadown"></i>
+
+        </div>
+
+    </section>
+
+    <section class="service-section section_padding" id="service">
+
+        <div class="service">
+            <h2 class="section__title">мои услуги</h2>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="service-box">
+
+                            <i class="fas fa-graduation-cap service-box__fa"></i>
+                            <h2 class="service-box__title">Нужна верстка?</h2>
+                            <p class="service-box__paragraph">Сверстаю вам сайт качественно, занимаюсть версткой по psd шаблону.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-box">
+                            <i class="fas fa-cogs service-box__fa"></i>
+                            <h2 class="service-box__title">Мои навыки</h2>
+                            <p class="service-box__paragraph">Умею верстать по БЭМу, умею использовать в верстке bootstrap4, Gulp, SASS, JS.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-box">
+                            <i class="fas fa-mobile-alt service-box__fa"></i>
+                            <h2 class="service-box__title">Адаптив</h2>
+                            <p class="service-box__paragraph">Делаю верстку кроссбраузерной, а так же делаю верстку адаптивной под мобильные устройства.</p>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="portfolio-section section_padding" id="portfolio">
+
+        <div class="portfolio">
+
+            <h2 class="section__title">Мои работы</h2>
+
+            <!-- <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="portfolio-box">
+                            <a href="work1/index.html" class="portfolio-box__link" target="_blank">
+
+                        <img src="img/Home.jpg" alt="" class="portfolio-box__img">
+
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="portfolio-box">
+                            <a href="work1/index.html" class="portfolio-box__link" target="_blank">
+
+                        <img src="img/Home.jpg" alt="" class="portfolio-box__img">
+
+                        </a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div> -->
+
+
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+
+                    <div class="portfolio-box">
+
+                        <a href="Timer/index.html" class="portfolio-box__link" target="_blank">
+                            <img src="img/timer.png" alt="" class="portfolio-box__img">
+                        </a>
+
+                    </div>
+
+                    </div>
+                    <div class="swiper-slide">
+
+                        <div class="portfolio-box">
+
+                            <a href="shop/index.html" class="portfolio-box__link" target="_blank">
+                                <img src="img/shop1.png" alt="" class="portfolio-box__img">
+                            </a>
+
+                    </div>
+
+                    </div>
+                    <div class="swiper-slide">
+
+                        <div class="portfolio-box">
+
+                            <a href="work1/index.html" class="portfolio-box__link" target="_blank">
+                                <img src="img/Home.jpg" alt="" class="portfolio-box__img">
+                            </a>
+
+                    </div>
+
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="button-prew"></div>
+                <div class="button-next"></div>
+            
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section class="about section_padding" id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="about__top">
+                    <h2 class="section__title">Немного обо мне</h2>
+
+                    <h4>Рад приветствовать!</h4>
+
+                    <p class="about__paragraph">Всем привет меня зовут Александр Нещеретный, я в данный момент являюсь студентом университета. Я люблю создавать сайты, мне это нравиться делать поэтому я и дальше буду развиваться в этом направлении. Стараюсь писать чистый, валидный код. При верстке умею использовать технологию БЭМ, так же пользуюсть bootstrap4, Gulp, умею работать с препроцессором SASS. Я очень старательный и целеустремлённый, в данный момент изучаю JS.</p>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="contacts-section section_padding" id="contacts">
+
+        <h2 class="section__title">Написать мне</h2>
+        <div class="container">
+            <div class="row justify-content-center">
+
+
+                <form class="contacts__form">
+
+                    <input type="name" name="name" class="contacts__input" required placeholder="Ваше имя">
+
+                    <input type="email" name="email" class="contacts__input" required placeholder="Ваш email">
+
+                    <input type="text" name="subject" class="contacts__input" required placeholder="Тема">
+
+                    <textarea class="contacts__taxtarea" name="message" required placeholder="Сообщение" rows="5"></textarea>
+
+                    <a href="#" class="contacts__button">Отправить</a>
+
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-12">
+                    <div class="footer__owner">
+
+                        <p class="footer__paragraph">© 2021 ХНЭУ<br>Александр Нещеретный</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

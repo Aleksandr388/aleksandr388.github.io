@@ -1,0 +1,96 @@
+@media screen and (max-width: 1200px) {
+
+    .nav__item {
+        padding: 0 0 0 10px;
+    }
+
+    .button-next, .button-prew {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .nav__list {
+        display: none;
+    }
+
+    .portfolio__title {
+        font-size: 35px;
+    }
+
+    .button_container {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .overlay ul li {
+        height: calc(100% / 6);
+    }
+
+    .overlay nav {
+        font-size: 40px;
+        top: 60%;
+    }
+
+    .service-box {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hello__title {
+        font-size: 12vw;
+    }
+    .hello__paragraph {
+        font-size: 5vw;
+    }
+
+    .hello__fadown {
+        font-size: 45px;
+    }
+
+    .about__title {
+        font-size: 35px;
+    }
+
+    .overlay nav {
+        font-size: 35px;
+        top: 60%;
+    }
+
+    .contacts__form {
+        padding: 0 45px 0 45px;
+    }
+
+    .section__title {
+        font-size: 35px;
+        margin-bottom: 60px;
+    }
+    
+    .service-box__title {
+        font-size: 30px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .drawer-list {
+        width: 40vw;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .drawer-list li a {
+        text-align: right;
+        padding: 0.5rem;
+    }
+}
